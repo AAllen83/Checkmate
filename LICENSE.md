@@ -1,0 +1,1 @@
+Checkmate repository license
