@@ -1,0 +1,32 @@
+{
+  "name": "checkmate",
+  "version": "1.0.0",
+  "description": "This is my Checkers Demo",
+  "main": "index.js",
+  "scripts": {
+    "runner": "cypress open  --e2e --browser chrome --config baseUrl=https://www.gamesforthebrain.com",
+    "build": "rollup -c",
+    "start": "htttp-server",
+    "test": "cypress run",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:record": "cypress run --record --key"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AAllen83/Checkmate.git"
+  },
+  "keywords": [
+    "check1"
+  ],
+  "author": "aallen83",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AAllen83/Checkmate/issues"
+  },
+  "homepage": "https://github.com/AAllen83/Checkmate#readme",
+  "devDependencies": {
+    "cypress": "^13.6.0",
+    "typescript": "^5.3.2"
+  }
+}
